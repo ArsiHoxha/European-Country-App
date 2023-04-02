@@ -1,0 +1,605 @@
+ 
+ body{
+    background-color: rgb(39, 39, 39);
+margin: 0; 
+
+}
+
+ #intro{
+    font-family:'Roboto',sans-serif ;
+    color: rgb(26, 204, 248);
+ }
+
+.Shtetet{
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display: inline;
+       
+    
+}
+#Russia{
+    background-image:url(./Flamuret/rusia.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Germany{
+    background-image:url(./Flamuret/germany.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#United-Kingdom{
+    background-image:url(./Flamuret/uk.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#France{
+    background-image:url(./Flamuret/france.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Italy{
+    background-image:url(./Flamuret/itlai.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+
+}
+#Spain{
+    background-image:url(./Flamuret/spanje.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Ukraine{
+    background-image:url(./Flamuret/ukraine.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Romania{
+    background-image:url(./Flamuret/Romani.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Netherlands{
+    background-image:url(./Flamuret/hollande.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Belgium{
+    background-image:url(./Flamuret/belgjike.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Czech-Republic{
+    background-image:url(./Flamuret/cekia.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Greece{
+    background-image:url(./Flamuret/Greqi.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Portugal{
+    background-image:url(./Flamuret/Portugal.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Sweden{
+    background-image:url(./Flamuret/Swedi.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Hungary{
+    background-image:url(./Flamuret/Hungari.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Belarus{
+    background-image:url(./Flamuret/bjellorusi.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Austria{
+    background-image:url(./Flamuret/austri.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Serbia{
+    background-image:url(./Flamuret/Serbia.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Switzerland{
+    background-image:url(./Flamuret/zvicer.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Bulgaria{
+    background-image:url(./Flamuret/bullgaria.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Denmark{
+    background-image:url(./Flamuret/Danimarke.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Finland{
+    background-image:url(./Flamuret/finlande.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Slovakia{
+    background-image:url(./Flamuret/sllovaki.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Norway{
+    background-image:url(./Flamuret/Norvegji.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Ireland{
+    background-image:url(./Flamuret/irlande.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Croatia{
+    background-image:url(./Flamuret/kroaci.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Moldova{
+    background-image:url(./Flamuret/moldavi.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Bosnia-and-Herzegovina{
+    background-image:url(./Flamuret/downloadbosnja.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Albania{
+    background-image:url(./Flamuret/al.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Lithuania{
+    background-image:url(./Flamuret/litunai.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#North-Macedonia{
+    background-image:url(./Flamuret/Maqedonia.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Latvia{
+    background-image:url(./Flamuret/latvia.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Estonia{
+    background-image:url(./Flamuret/estoni.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Montenegro{
+    background-image:url(./Flamuret/mali.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Luxembourg{
+    background-image:url(./Flamuret/luxemburg.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Malta{
+    background-image:url(./Flamuret/germany.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Iceland{
+    background-image:url(./Flamuret/islande.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Andorra{
+    background-image:url(./Flamuret/andorra.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#Monaco{
+    background-image:url(./Flamuret/monaco.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Liechtenstein{
+    background-image:url(./Flamuret/lichestein.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+#San-Marino{
+    background-image:url(./Flamuret/sanmarino.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+}
+#Vatikan{
+    background-image:url(./Flamuret/vatikan.png);background-repeat: no-repeat;background-position: center;background-size: cover;display: none;
+    width: 70;
+    height:70;
+    border-radius: 50px;
+    display:inline-block;
+    margin: 40;    
+    border: 3px solid black;
+    display: none;
+
+}
+h2{
+    color: rgb(253, 253, 253);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img{
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    margin-bottom: 440;
+    border: 2px solid black;
+    
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+a{
+    color: rgb(253, 253, 253);
+position: relative;
+    margin-left: 25%;
+    width: 1200;
+
+}
+#titull{
+    position:relative;
+    margin-left: 25%;
+    width: 1200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#pershkrimi{
+    width: 1200px;
+    margin-left: 25%;
+    margin-top: -400px;
+}
+#linkuUshq{
+    margin-left: 25%;
+
+    font-size: 15px;
+    
+
+}
+#emriUshN{
+    margin-left: 25%;
+
+}
+#teskstiPershkrues{
+    margin-left: 25%;
+}
+#tedyja{
+    border: 0px solid rgb(255, 255, 255);
+    display: inline;    
+    
+}
+#menu{
+    border-radius: 0%;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 80;
+    right:  -10;
+}
+#butonitUserit{
+    width: 150;
+    height: 50;
+    font-size: 25px;
+    background-color: red;
+    background-size: cover;
+
+}
+
+.Pjesa-larte {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+  }
+  
+  .Pjesa-larte input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .Pjesa-larte button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  #settings{
+    padding: 10px 10px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    margin-left: 20;
+  }
+  .Pjesa-larte button:hover {
+    background-color: royalblue;
+  }
+  
+  @media (max-width: 800px) {
+    .Pjesa-larte input {
+      margin: 10px 0;
+    }
+    .Pjesa-larte button {
+       width: 200;
+      }
+    img{
+        height: 300;
+    }
+      .Shtetet{
+        display: flexbox;
+    }
+    #pershkrimi{
+        width: 60%;
+    }
+        
+    #linkuUshq{
+        width: 60%;
+        
+
+    }
+    #titull{
+        width: 50%;       
+    }
+    a{
+        width: 50;
+    }
+    #emriUshN{
+        width: 70%;
+    }
+    #teskstiPershkrues{
+        width:50%
+    }
+    .Pjesa-larte{
+      flex-direction: column;
+    }
+  }
